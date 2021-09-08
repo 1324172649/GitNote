@@ -6,3 +6,7 @@ docker ps
 
 //进入docker
 docker exec -it e8da09a94531 /bin/bash
+
+cd /var/www/joywok/library/stomp-activemq
+
+php activemq_group.php
