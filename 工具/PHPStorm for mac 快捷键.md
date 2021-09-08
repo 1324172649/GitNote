@@ -65,3 +65,9 @@ PageUP=Fn+上方向
 PageDOWN=Fn+下方向 
 
 向前Delete=Fn+delete键
+
+
+1. 按住【option】键再按【delete】可以删除光标前的一句话或一整个单词
+2. 按住【command】再按【delete】，可以删除一整行文字
+3. macbook上的向后删除（就像PC上键盘的delete），是按住【fn】再按【delete】
+
