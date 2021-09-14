@@ -8,8 +8,11 @@ sh start.sh
 cd /var/soft/apache-activemq-5.13.5/
 sudo ./bin/activemq start
 
-//单独启动一个队列
+//activemq单独启动一个队列，并在后台运行
 php activemq_group.php 2> /dev/null &
+
+//rabbitmq单独启动一个队列，并在后台运行
+php queues/group/group_dynamicmems.php 2> /tmp/rmq_group_dynamicmems.log &
 
 activemq管理后台:
 http://192.168.1.63:8161/admin/
