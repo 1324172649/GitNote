@@ -11,8 +11,15 @@ sudo ./bin/activemq start
 //activemq单独启动一个队列，并在后台运行
 php activemq_group.php 2> /dev/null &
 
+//activemq单独关闭一个队列
+ps -ef | grep activemq_group.php | awk '{ print $2 }' | sudo xargs kill -9
+
+
 //rabbitmq单独启动一个队列，并在后台运行
 php queues/group/group_dynamicmems.php 2> /tmp/rmq_group_dynamicmems.log &
+
+//rabbitmq单独关闭一个队列
+ps -ef | grep queues/group/group_dynamicmems.php | awk '{ print $2 }' | sudo xargs kill -9
 
 activemq管理后台:
 http://192.168.1.63:8161/admin/
