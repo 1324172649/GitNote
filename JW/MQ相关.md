@@ -26,3 +26,12 @@ http://192.168.1.63:8161/admin/
 
 rabbitmq管理后台:
 http://192.168.2.14:15672/#/channels
+
+
+//群组动态成员相关队列
+activemq_push.php
+activemq_as.php
+activemq_usergroup.php
+activemq_user_status.php
+activemq_user.php
+activemq_group.php
