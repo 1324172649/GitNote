@@ -4,4 +4,9 @@ https://note.youdao.com/ynoteshare1/index.html?id=899009317c030623d9df3d8c207b89
 apidoc分支：
 jw_apidoc
 
+//更新生成文档
+git pull
+cd /var/www
+sh apidoc.sh
+
 
