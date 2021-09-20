@@ -26,4 +26,29 @@ git cherry-pick [<options>] <commit-ish>...
     -n, --no-commit       不自动提交
     -e, --edit            编辑提交信息
 
-7、
+7、撤销文件修改
+1. 使用 git checkout 撤销本地修改
+即放弃对本地已修改但尚未提交的文件的修改，还原其到未修改前的状态。
+注意： 已 add/ commit 的文件不适用个方法，应该用本文提到的第二种方法。
+
+命令如下：
+
+git checkout .      # 撤销对所有已修改但未提交的文件的修改，但不包括新增的文件
+git checkout [filename]     # 撤销对指定文件的修改，[filename]为文件名
+1
+2
+
+
+2. 使用 git reset 回退项目版本
+可以回退到任意已经提交过的版本。已 add / commit 但未 push 的文件也适用。
+
+命令如下：
+
+git reset --hard [commit-hashcode]  
+# [commit-hashcode]是某个 commit 的哈希值，可以用 git log 查看
+1
+2
+因此一般用法是先用 git log 查看具体commit的哈希值，然后 reset 到那个版本。
+————————————————
+版权声明：本文为CSDN博主「Dandelion_drq」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/Dandelion_drq/article/details/51259831
