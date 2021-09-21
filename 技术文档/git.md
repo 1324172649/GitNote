@@ -49,6 +49,3 @@ git reset --hard [commit-hashcode]
 1
 2
 因此一般用法是先用 git log 查看具体commit的哈希值，然后 reset 到那个版本。
-————————————————
-版权声明：本文为CSDN博主「Dandelion_drq」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Dandelion_drq/article/details/51259831
