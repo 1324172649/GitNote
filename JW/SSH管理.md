@@ -10,3 +10,10 @@ ServerAliveCountMax 3  #允许超时的次数，一般都会响应
 ssh 远程链接，用户名：root      密码： Dogesoft!@#
 ssh root@192.168.1.63 -p22
 
+
+
+cd /Users/luna/.ssh
+vim config
+ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@192.168.1.30
+
+
