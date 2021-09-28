@@ -6,14 +6,15 @@ sudo vim /etc/ssh/ssh_config
 ServerAliveInterval 60 #每隔60秒就向服务器发送一个请求
 ServerAliveCountMax 3  #允许超时的次数，一般都会响应
 
-
 ssh 远程链接，用户名：root      密码： Dogesoft!@#
 ssh root@192.168.1.63 -p22
 
-
-
+//远程连接快捷免密登陆
 cd /Users/luna/.ssh
 vim config
 ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@192.168.1.30
 
 
+//如果你的内心是我的name
+
+//如果你的内心是真的设置好的
