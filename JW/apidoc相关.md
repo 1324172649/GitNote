@@ -10,3 +10,7 @@ cd /var/www
 sh apidoc.sh
 
 
+
+1.30
+apidoc -i /var/jw7788/joywok/application/modules/api/controllers/ -f EvaluateController.php -o /var/www/apidoc/
+
