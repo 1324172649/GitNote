@@ -23,7 +23,7 @@ ssh -i StagingBastion.pem ubuntu@ec2-52-83-143-151.cn-northwest-1.compute.amazon
 ./mysql.sh   //主库
 ./mysqlread.sh     //读库
 control+R 搜索执行过的命令
-输入ssh 自动搜索到 ssh -i pems/staging.pem ubuntu@172.0.1.213  为staging环境代码
+输入ssh 自动搜索到 ssh -i pems/staging.pem ubuntu@172.0.1.231  为staging环境代码
 
 
 
