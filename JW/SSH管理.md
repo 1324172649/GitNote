@@ -18,7 +18,8 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@192.168.1.30
 在证书当前目录下执行
 cd /Users/luna/Downloads
 ssh -i StagingBastion.pem ubuntu@ec2-52-83-143-151.cn-northwest-1.compute.amazonaws.com.cn
-进入之后
+进入之后的目录是/home/ubuntu
+查看当前目录下
 ./mysql.sh   //主库
 ./mysqlread.sh     //读库
 control+R 搜索执行过的命令
