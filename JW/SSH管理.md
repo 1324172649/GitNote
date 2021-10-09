@@ -24,7 +24,8 @@ ssh -i StagingBastion.pem ubuntu@ec2-52-83-143-151.cn-northwest-1.compute.amazon
 ./mysqlread.sh     //读库
 control+R 搜索执行过的命令
 输入ssh 自动搜索到 ssh -i pems/staging.pem ubuntu@172.0.1.231  为staging环境代码
-
+可以临时在这上边修改文件，但是要尽快复原
+本地最终修改之后提交到分支上，在staging环境git pull拉一下代码
 
 
 
