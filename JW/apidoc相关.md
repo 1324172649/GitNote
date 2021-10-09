@@ -9,8 +9,6 @@ git pull
 cd /var/www
 sh apidoc.sh
 
-
-
-1.30
+//1.30更新文档
 apidoc -i /var/www/joywok/application/modules/api/controllers/ -f EvaluateController.php -o /var/www/apidoc/
 
