@@ -49,3 +49,10 @@ git reset --hard [commit-hashcode]
 1
 2
 因此一般用法是先用 git log 查看具体commit的哈希值，然后 reset 到那个版本。
+
+git clean 删除未被跟踪文件及文件夹
+git clean  -f
+删除：未被跟踪的文件
+
+git clean -fd
+删除：未被跟踪的文件和文件夹
