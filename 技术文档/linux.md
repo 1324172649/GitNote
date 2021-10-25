@@ -33,3 +33,32 @@ Codename:   xenial //ubuntu的代号名称
 
 查看磁盘空间
 df -hl
+
+【linux将文件前面100行导出,linux中，使用cat、head、tail命令显示文件指定行】
+
+小文件可以用cat(也可以用head、tail)
+
+显示文件最后20行：cat err.log | tail -n 20
+
+显示文件前面20行：cat err.log | head -n 20
+
+从20行开始显示，显示20行以后的所有行：cat err.log | tail -n +100
+
+显示100行到500行：cat err.log | head -n 500 | tail -n +100
+
+cat err.log | tail -n +100 | head -n 401
+
+sed -n '100,500p' err.log
+
+大文件最好用head、tail
+
+当被查看的文件很大，不要用cat，直接用head，tail
+
+head -n 20 err.log
+
+tail -n 20 err.log
+
+显示100行到500行：head -n500 test.txt | tail -n +100
+
+tail -n +100 test.txt| head -n 401
+
