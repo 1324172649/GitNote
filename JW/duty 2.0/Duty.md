@@ -624,7 +624,7 @@
 | creator_id | char(32)   | 创建人id                              |
 | created_at | int(11)    | 创建时间                              |
 
-15、备忘录表 {domain}_duty_memo
+15、备忘录表 {domain}_duty_memo【过期时间和分享范围】
 
 | column     | type         | desc     |
 | ---------- | ------------ | -------- |
