@@ -1,3 +1,25 @@
+可能会用到的一些翻译
+任务套装
+Task Set
+
+班次目标
+Shift Target
+
+星级班次
+Star Shift
+
+班次管理
+Shift
+
+备忘录
+Memo
+
+门店代理
+Agent
+
+常用功能
+Shortcut
+
 # Duty Roster 2.0
 1. 我这边负责的都是app端的接口开发
 2. 
