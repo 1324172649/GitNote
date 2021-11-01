@@ -28,6 +28,12 @@ control+R 搜索执行过的命令
 可以临时在这上边修改文件，但是要尽快复原
 本地最终修改之后提交到分支上，在staging环境git pull拉一下代码
 
+星巴克是54和59
+迪士尼是51
+dogesoftuat是56
+staging是231
+
+
 ./redis1.sh  //redis库
 hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
 
