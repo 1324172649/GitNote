@@ -29,7 +29,7 @@ control+R 搜索执行过的命令
 本地最终修改之后提交到分支上，在staging环境git pull拉一下代码
 
 星巴克是54和59
-迪士尼是51
+迪士尼是51,mq是71
 dogesoftuat是56
 staging是231
 
