@@ -8,6 +8,9 @@ sh start.sh
 cd /var/soft/apache-activemq-5.13.5/
 sudo ./bin/activemq start
 
+#cd /var/soft/apache-activemq-5.13.5/
+#sudo ./bin/activemq start
+
 //activemq单独启动一个队列，并在后台运行
 php activemq_group.php 2> /dev/null &
 
