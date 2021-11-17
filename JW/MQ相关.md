@@ -1,3 +1,10 @@
+
+root@joywok:/var/www# vim joywok/library/stomp-activemq/startmq.sh
+mkdir -p /var/www/joywok/logs/activemq/
+chmod  777  /var/www/joywok/logs/activemq/
+
+
+
 RMQ 分支： lkm_rmq_0623
 
 //虚拟机重启之后，执行一些服务的重启，其中一般包含activemq
