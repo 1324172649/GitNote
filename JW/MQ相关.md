@@ -1,9 +1,6 @@
-
 root@joywok:/var/www# vim joywok/library/stomp-activemq/startmq.sh
 mkdir -p /var/www/joywok/logs/activemq/
 chmod  777  /var/www/joywok/logs/activemq/
-
-
 
 RMQ 分支： lkm_rmq_0623
 
