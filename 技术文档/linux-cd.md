@@ -43,7 +43,7 @@ cd ../.. //
 
 说明：使用cd 命令实现进入当前目录的父目录的父目录。 
 
-使用 cd 命令进入当前用户主目录
+### 使用 cd 命令进入当前用户主目录
 
 “当前用户主目录”和“系统根目录”是两个不同的概念。进入当前用户主目录有两个方法。
 
@@ -70,3 +70,24 @@ cd ~
 4 　　[root@localhost soft]# cd ~
 5 　　[root@localhost ~]# pwd
 6 　　/root   	
+
+### 跳转到指定目录
+
+命令： 
+
+cd /opt/soft
+
+输出：
+
+复制代码
+1 [root@localhost ~]# cd /opt/soft
+2 [root@localhost soft]# pwd
+3 /opt/soft
+4 [root@localhost soft]# cd jdk1.6.0_16/
+5 [root@localhost jdk1.6.0_16]# pwd
+6 /opt/soft/jdk1.6.0_16
+7 [root@localhost jdk1.6.0_16]# 
+复制代码
+说明：
+
+跳转到指定目录，从根目录开始，目录名称前加 / ,当前目录内的子目录直接写名称即可
