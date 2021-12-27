@@ -13,3 +13,157 @@
 命令：ls -l t*   
 
 可以查看当前目录下文件名以“t”开头的所有文件的信息。其实，在命令格式中，方括号内的内容都是可以省略的，对于命令ls而言，如果省略命令参数和操作对象，直接输入“ ls ”，则将会列出当前工作目录的内容清单。
+
+### 只列出文件下的子目录
+
+命令：ls -F /opt/soft |grep /$  
+
+列出 /opt/soft 文件下面的子目录
+
+输出：
+
+[root@localhost opt]# ls -F /opt/soft |grep /$
+
+jdk1.6.0_16/
+
+subversion-1.6.1/
+
+tomcat6.0.32/
+
+命令：ls -l /opt/soft | grep "^d"
+
+列出 /opt/soft 文件下面的子目录详细情况
+
+输出：
+
+[root@localhost opt]#  ls -l /opt/soft | grep "^d"
+
+drwxr-xr-x 10 root root      4096 09-17 18:17 jdk1.6.0_16
+
+drwxr-xr-x 16 1016 1016      4096 10-11 03:25 subversion-1.6.1
+
+drwxr-xr-x  9 root root      4096 2011-11-01 tomcat6.0.32
+
+### 列出目前工作目录下所有名称是s 开头的档案，愈新的排愈后面，可以使用如下命令：
+
+命令：ls -ltr s*
+
+输出：
+
+[root@localhost opt]# ls -ltr s*
+
+src:
+
+总计 0
+
+script:
+
+总计 0
+
+soft:
+
+总计 350644
+
+drwxr-xr-x  9 root root      4096 2011-11-01 tomcat6.0.32
+
+-rwxr-xr-x  1 root root  81871260 09-17 18:15 jdk-6u16-linux-x64.bin
+
+drwxr-xr-x 10 root root      4096 09-17 18:17 jdk1.6.0_16
+
+-rw-r--r--  1 root root 205831281 09-17 18:33 apache-tomcat-6.0.32.tar.gz
+
+-rw-r--r--  1 root root   5457684 09-21 00:23 tomcat6.0.32.tar.gz
+
+-rw-r--r--  1 root root   4726179 10-10 11:08 subversion-deps-1.6.1.tar.gz
+
+-rw-r--r--  1 root root   7501026 10-10 11:08 subversion-1.6.1.tar.gz
+
+drwxr-xr-x 16 1016 1016      4096 10-11 03:25 subversion-1.6.1
+
+例五：列出目前工作目录下所有档案及目录;目录于名称后加"/", 可执行档于名称后加"*" 
+
+命令：ls -AF
+
+输出：
+
+[root@localhost opt]# ls -AF
+
+log/  script/  soft/  src/  svndata/  web/
+
+例六：计算当前目录下的文件数和目录数
+
+命令：
+
+ls -l * |grep "^-"|wc -l ---文件个数  
+
+ls -l * |grep "^d"|wc -l    ---目录个数
+
+例七: 在ls中列出文件的绝对路径
+
+命令：ls | sed "s:^:`pwd`/:"
+
+输出：
+
+    [root@localhost opt]# ls | sed "s:^:`pwd`/:" 
+
+    /opt/log
+
+    /opt/script
+
+    /opt/soft
+
+    /opt/src
+
+    /opt/svndata
+
+    /opt/web
+
+例九：列出当前目录下的所有文件（包括隐藏文件）的绝对路径， 对目录不做递归
+
+命令：find $PWD -maxdepth 1 | xargs ls -ld
+
+输出：
+
+[root@localhost opt]# find $PWD -maxdepth 1 | xargs ls -ld
+
+drwxr-xr-x 8 root root 4096 10-11 03:43 /opt
+
+drwxr-xr-x 2 root root 4096 2012-03-08 /opt/log
+
+drwxr-xr-x 2 root root 4096 2012-03-08 /opt/script
+
+drwxr-xr-x 5 root root 4096 10-11 03:21 /opt/soft
+
+drwxr-xr-x 2 root root 4096 2012-03-08 /opt/src
+
+drwxr-xr-x 4 root root 4096 10-11 05:22 /opt/svndata
+
+drwxr-xr-x 4 root root 4096 10-09 00:45 /opt/web
+
+例十：递归列出当前目录下的所有文件（包括隐藏文件）的绝对路径
+
+命令： find $PWD | xargs ls -ld 
+
+例十一：指定文件时间输出格式
+
+命令：
+
+ ls -tl --time-style=full-iso
+
+输出：
+
+[root@localhost soft]# ls -tl --time-style=full-iso 
+
+总计 350644
+
+drwxr-xr-x 16 1016 1016 4096 2012-10-11 03:25:58.000000000 +0800 subversion-1.6.1
+
+ ls -ctl --time-style=long-iso
+
+输出：
+
+[root@localhost soft]# ls -ctl --time-style=long-iso
+
+总计 350644
+
+drwxr-xr-x 16 1016 1016      4096 2012-10-11 03:25 subversion-1.6.1
