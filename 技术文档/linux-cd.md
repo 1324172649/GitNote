@@ -13,3 +13,30 @@ cd /
 命令：
 
 cd .. 或者 cd .. //
+
+输出：
+
+1 [root@localhost soft]# pwd
+2 /opt/soft
+3 [root@localhost soft]# cd ..
+4 [root@localhost opt]# cd ..//
+5 [root@localhost /]# pwd
+6 / 
+
+说明：
+
+进入系统根目录可以使用“ cd .. ”一直退，就可以到达根目录 
+
+
+命令：
+
+cd ../.. //
+
+输出：
+
+1 [root@localhost soft]# pwd
+2 /opt/soft
+3 [root@localhost soft]# cd ../.. //
+4 [root@localhost /]# pwd
+5 /
+6 [root@localhost /]# 
