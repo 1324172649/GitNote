@@ -1,11 +1,11 @@
-@Git_分支管理  @朱晓娜(Hannah) #提测申请# 
+@Git 分支管理 @朱晓娜(Hannah) #提测申请# 
 
 分支： liuxin_duty2_todo_op_record_20220303
 分支来源： jwbackend_master_duty2_20211027
 
 相关需求链接：
-https://dogesoft.joywok.com/as/info?id=yMQe8TqgRChe1h8q
-项目出处：@Starbucks Partner APP
+https://dogesoft.joywok.com/url/jTmXzHG 
+项目出处：@Starbucks Partner APP 
 
 提测内容：
 1、duty2.0今日Todo操作记录;
@@ -18,9 +18,9 @@ php create_table_func.php create_index_for_duty_log_20220311
 涉及配置：无
 
 涉及接口清单：
-1、GET /api/duty/todorecord	【今日Todo操作记录列表（新增API）】
-2、DELETE /api/duty/todoinfo	【今日Todo删除】
-3、GET /api/duty/todolist	【今日Todo列表】
+1、GET /api/duty/todorecord 【今日Todo操作记录列表（新增API）】
+2、DELETE /api/duty/todoinfo 【今日Todo删除】
+3、GET /api/duty/todolist 【今日Todo列表】
 
 是否涉及Controller层改动：否
 
@@ -46,6 +46,6 @@ php create_table_func.php create_index_for_duty_log_20220311
 影响点：
 1、今日Todo模块；
 
-自测人： @柳鑫(Luna)
+自测人： @柳鑫(Luna) 
 
-cc @杨康(Conn)
+cc @杨康(Conn) 
