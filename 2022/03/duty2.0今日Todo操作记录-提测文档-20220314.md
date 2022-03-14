@@ -17,13 +17,7 @@ php create_table_func.php create_index_for_duty_log_20220311
 
 涉及配置：无
 
-涉及配置：无
 
-涉及接口清单：无
-
-是否涉及Controller层改动：否
-
-是否涉及Model层
 
 涉及接口清单：
 1、GET /api/duty/todorecord	【今日Todo操作记录列表（新增API）】
