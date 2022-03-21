@@ -4,5 +4,5 @@ sftp luna@192.168.1.61
 sftp> get -r ./* /Users/luna/Documents/GitNote/GitNote/test/shared
 切换到本地指定目录下：
 sftp> lcd /Users/luna/Documents/GitNote/GitNote/
-上传目录下文件
+上传目录下文件：
 sftp> put -r test/.
