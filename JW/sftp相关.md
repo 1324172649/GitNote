@@ -1,13 +1,13 @@
 【安装OpenSSH服务器】
 sudo apt-get install openssh-server
 1、创建SFTP组
-groupadd sftp-usergroup
+groupadd sftp
 2、创建SFTP的用户
-useradd -g sftp-usergroup -s /bin/false sftp-user 
+useradd -g sftp -s /bin/false mysftp 
 passwd mysftp
 3、新建目录，指定为SFTP的主目录
-mkdir -p /sftp/sftp-user
-usermod -d /sftp/sftp-user sftp-user
+mkdir -p /sftp/mysftp
+usermod -d /sftp/mysftp mysftp
 4、编辑配置文件
 vim /etc/ssh/sshd_config
 
