@@ -7,7 +7,7 @@ useradd -g sftp-usergroup -s /bin/false sftp-user
 passwd mysftp
 3、新建目录，指定为SFTP的主目录
 mkdir -p /sftp/sftp-user
-usermod -d /sftp/sftp-user mysftp
+usermod -d /sftp/sftp-user sftp-user
 4、编辑配置文件
 vim /etc/ssh/sshd_config
 
