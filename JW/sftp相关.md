@@ -5,4 +5,4 @@ sftp> get -r ./* /Users/luna/Documents/GitNote/GitNote/test/shared
 切换到本地指定目录下：
 sftp> lcd /Users/luna/Documents/GitNote/GitNote/
 上传本地目录下所有文件到当前远程目录下：
-sftp> put -r test/.
+sftp> put -r test/. /tmp/ OR put -r ～/test/
