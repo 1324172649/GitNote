@@ -8,9 +8,9 @@ sftp> get -r ./* /Users/luna/Documents/GitNote/GitNote/test/shared
 sftp> lcd /Users/luna/Documents/GitNote/GitNote/
 
 上传本地目录下指定文件到当前远程目录下：
-sftp> put ～/test.c OR put -r ～/test/
+sftp> put ～/test.c
 上传本地目录下指定文件到指定远程目录下：
-sftp> put ～/test.c /tmp/ OR put -r ～/test/ /tmp/
+sftp> put ～/test.c /tmp/
 
 上传本地目录下所有文件到当前远程目录下：
 sftp> put -r test/. OR put -r ～/test/
