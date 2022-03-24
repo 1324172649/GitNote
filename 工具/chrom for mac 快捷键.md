@@ -3,8 +3,8 @@ ctrl+shift+tab 向前切换浏览器标签页
 Ctrl+1是切换到第一个标签，Ctrl+2是切换到第二个标签，依次类推，但是Ctrl+9不是第九个标签页，而是最后一个标签页
 
 command+c 打开检查页面 command+[ 向前切换检查页面的tab command+] 向后切换检查页面的tab
-command+[ 向前切换当前标签页的浏览记录 
-command+] 向后切换当前标签页的浏览记录 
+command+[ OR ➡️ 向前切换当前标签页的浏览记录 
+command+] OR ⬅️ 向后切换当前标签页的浏览记录 
 command+l 定位到浏览器标签页地址栏
 command+w 关闭标签页
 command+q 关闭浏览器
@@ -13,6 +13,10 @@ command+t 打开新的浏览器标签页
 command+shift+t 打开刚关闭的浏览器标签页
 command+shift+n 打开新的无痕窗口
 command+Shift+W 关闭当前窗口
+command++ 放大网页
+command+- 缩小网页
+command+0 将网页上的所有内容恢复到正常大小。
+command+Shift-H 在当前标签页中打开主页。
 
 command+M 最小化窗口。
 command+H 隐藏 Chrome 浏览器。
