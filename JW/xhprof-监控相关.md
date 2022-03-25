@@ -1,6 +1,6 @@
-public function repwdPut(){
+    public function repwdPut(){
         $xhprof_enable = false;
-//        if(mt_rand(1,10)==1){ //这里设置监控的比例
+    //    if(mt_rand(1,10)==1){ //这里设置监控的比例
         if(true){ //这里设置监控的比例必现
             xhprof_enable();
             $xhprof_enable = true;
@@ -28,3 +28,13 @@ public function repwdPut(){
 	//接口返回值
         $this->_helper->json($result);
     }
+
+
+
+展示含义：
+funciton name ： 函数名
+calls: 调用次数
+Incl. Wall Time (microsec)： 函数运行时间（包括子函数）
+IWall%：函数运行时间（包括子函数）占比
+Excl. Wall Time(microsec)：函数运行时间（不包括子函数）
+EWall%：函数运行时间（不包括子函数）
