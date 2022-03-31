@@ -3,6 +3,8 @@ ssh root@192.168.2.29 -p22
 redis-cli
 127.0.0.1:6379> smembers uid.sids:0ec597c200db8030b955343b41bbef6f（uid=>userinfo表）
 
+hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
+
 查看linux上面是否有安装redis,以及redis的启动和关闭
 1、检测是否有安装redis-cli和redis-server;
 [root@localhost bin]# whereis redis-cli
