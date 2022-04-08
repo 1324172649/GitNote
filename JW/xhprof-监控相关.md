@@ -12,7 +12,7 @@
         $result = $this->_iam->repwd($uid,$pwd);
 	结束*/
 
-        if($xhprof_enable ){
+        if($xhprof_enable){
             $xhprof_data = xhprof_disable();
             //$XHPROF_ROOT = realpath(dirname(__FILE__) .'/..');
             $XHPROF_ROOT = '/var/www/xhprof';
