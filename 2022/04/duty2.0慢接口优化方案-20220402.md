@@ -28,3 +28,8 @@ b.删除缓存：
 未开始
 **新建任务**
 未开始
+**索引优化脚本**
+joywok/Sql/cmd/create_index_for_duty2_slow_api_20220329.php
+执行步骤：
+cd /var/www/joywok/Sql/cmd/
+php create_table_func.php create_index_for_duty2_slow_api_20220329
