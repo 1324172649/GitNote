@@ -15,12 +15,7 @@ https://dogesoft.joywok.com/as/info?id=OdMMdB8FWzqnbtKc
 cd /var/www/joywok/Sql/cmd/
 php create_table_func.php create_index_for_duty2_slow_api_20220329
 
-涉及配置：
-1、cd /var/www/joywok/application/qwr/redis/
-vim redis_key.php
-
-define("DUTY_TARGET","duty_target:");                        //duty班次目标
-注意：请添加在“define("DUTY_STORE_RECOMMEND_FLAG","duty_store_recommend_flag:");”下方
+涉及配置：无
 
 涉及接口清单：
 1、GET /api/duty/shifttargets 	【班次目标列表】
