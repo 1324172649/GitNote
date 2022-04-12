@@ -146,6 +146,27 @@ for(var i = 0; i < records.length; i++) {
         //     errorCode = records[i].errorCode
         // }
 
+//移除字段开始
+      records[i].value.remove('id');
+//移除字段结束
+      
+//处理时间戳转日期格式开始
+      //records[i].value.date 		= getYMDhms(records[i].value['created_at'], 'yes');
+      records[i].attributes.date	= getYMDhms(records[i].value['created_at'], 'yes');
+      
+      records[i].value.start_at 	= getYMDhms(records[i].value['start_at'], 'no');
+//处理时间戳转日期格式开始
+
+//处理字符串拆分开始
+        var arr = records[i].value['fileInfo']['file'].split('/');
+      
+       	records[i].value.date = arr[3];
+      
+      	var arr_name = arr[4].split('+');
+      
+       	records[i].value.name = arr_name[0]+'.csv';
+//处理字符串拆分结束
+
         // Write record to processor output
         sdc.output.write(records[i]);
     } catch (e) {
@@ -153,3 +174,42 @@ for(var i = 0; i < records.length; i++) {
         sdc.error.write(records[i], e);
     }
 }
+
+//处理时间戳转日期格式方法
+function getYMDhms(time, only_ymd){
+  
+	var timezone = 8; //目标时区时间，东八区
+  
+	var offset_GMT = new Date().getTimezoneOffset(); // 本地时间和格林威治的时间差，单位为分钟
+	
+  	var date = new Date(parseInt(time) * 1000 + offset_GMT * 60 * 1000 + timezone * 60 * 60 * 1000);
+
+	Y = date.getFullYear() + '-';
+
+	M = (date.getMonth()+1 < 10 ? '0' + (date.getMonth()+1) : date.getMonth()+1) + '-';
+
+	D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
+  
+  	if(only_ymd == 'yes')
+    {
+      
+      	return Y + M + D;
+      
+    }else{
+      
+      	h = ' ' + (date.getHours()) + ':';
+  
+		m = date.getMinutes() + ':';
+  
+		s = date.getSeconds();
+  
+		return Y + M + D + h + m + s;
+      
+    }
+}
+
+
+/tmp/out/${YYYY()}-${MM()}-${DD()}
+/tmp/out/${record:value('/date')}
+/tmp/out/${record.attributes('/date')}❌
+/tmp/out/${record:attribute('date')}✅
