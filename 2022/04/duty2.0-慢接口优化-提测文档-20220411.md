@@ -1,11 +1,11 @@
-@Git 分支管理 @朱晓娜(Hannah) #提测申请# 
+@Git_分支管理  @朱晓娜(Hannah)  #提测申请# 
 
 分支： liuxin_master_duty2_slow_api_20220329
 分支来源： master
 
 相关链接：
 https://dogesoft.joywok.com/as/info?id=OdMMdB8FWzqnbtKc
-项目出处：@Starbucks Partner APP 
+项目出处：@Starbucks_Partner_APP 
 
 提测内容：
 1、duty2.0慢接口优化;
@@ -20,7 +20,7 @@ php create_table_func.php create_index_for_duty2_slow_api_20220329
 涉及接口清单：
 1、GET /api/duty/shifttargets 	【班次目标列表】
 2、GET /api/duty/shifttarget 	【班次目标详情】
-3、GET /api/duty/memos 		【备忘录列表】
+3、GET /api/duty/memos 	【备忘录列表】
 4、GET /api/duty/depttasks	【任务管理列表】
 
 是否涉及Controller层改动：否
