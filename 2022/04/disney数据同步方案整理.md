@@ -5,7 +5,9 @@
 
 
 60、抽奖事件数据 disney_raffle_event
-updated_at存在0
+updated_at存在0的情况
+
+
 
 63、抽奖与对象关系数据 disney_raffle_obj_rel
 没有updated_at视为不会发生更新操作
