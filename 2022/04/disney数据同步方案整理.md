@@ -47,3 +47,8 @@ updated_at存在0的情况
 没有updated_at视为不会发生更新操作
 
 
+69、抽奖操作日志数据 disney_raffle_log
+op_time
+
+70、抽奖用户范围数据 disney_raffle_userscope
+updated_at存在0的情况
