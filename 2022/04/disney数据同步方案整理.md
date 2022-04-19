@@ -23,6 +23,11 @@ updated_at存在0的情况
 updated_at存在0的情况
 
 
+65、抽奖形式数据 disney_raffle_game
+updated_at存在0的情况
+
+
+
 66、抽奖事件与抽奖人记录数据 disney_raffle_times_record
 没有updated_at视为不会发生更新操作
 数据字典要求的下两个字段不存在
