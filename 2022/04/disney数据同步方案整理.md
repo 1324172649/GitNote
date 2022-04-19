@@ -44,7 +44,6 @@ updated_at存在0的情况
 ->读取到数据即写入当前日期对应的目录下
 
 68、抽奖记录数据 disney_raffle_record
-
 没有updated_at视为不会发生更新操作
 
 
