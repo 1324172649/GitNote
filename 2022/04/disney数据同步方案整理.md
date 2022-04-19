@@ -3,4 +3,5 @@
 
 
 
-_raffle_total_times_record 不存在created_at也不存在updated_at如何判断新增和更新条件？
+67、抽奖人总的抽奖次数数据 disney_raffle_total_times_record
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
