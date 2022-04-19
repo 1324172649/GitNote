@@ -13,7 +13,7 @@
 | start_at | int  | 抽奖开始时间 |
 | -------- | ---- | ------------ |
 | end_at   | int  | 抽奖结束时间 |
-需要查询
+需要查询【抽奖事件数据 disney_raffle_event】
 
 
 67、抽奖人总的抽奖次数数据 disney_raffle_total_times_record
