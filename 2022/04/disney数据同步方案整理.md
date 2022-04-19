@@ -7,6 +7,12 @@
 60、抽奖事件数据 disney_raffle_event
 updated_at存在0的情况
 
+61、奖品数据 disney_raffle_award
+updated_at存在0的情况
+
+
+62、抽奖声明模版数据 disney_raffle_state_template
+updated_at存在0的情况
 
 
 63、抽奖与对象关系数据 disney_raffle_obj_rel
