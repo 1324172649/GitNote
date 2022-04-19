@@ -3,4 +3,4 @@
 
 
 
-_raffle_total_times_record 不存在
+_raffle_total_times_record 不存在created_at也不存在updated_at如何判断新增和更新条件？
