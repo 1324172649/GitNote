@@ -7,8 +7,8 @@
 63、抽奖与对象关系数据 disney_raffle_obj_rel
 没有updated_at视为不会发生更新操作
 
-
 66、抽奖事件与抽奖人记录数据 disney_raffle_times_record
+没有updated_at视为不会发生更新操作
 数据字典要求的下两个字段不存在
 | start_at | int  | 抽奖开始时间 |
 | -------- | ---- | ------------ |
