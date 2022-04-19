@@ -10,11 +10,8 @@ updated_at存在0的情况
 61、奖品数据 disney_raffle_award
 updated_at存在0的情况
 
-
 62、抽奖声明模版数据 disney_raffle_state_template
 updated_at存在0的情况
-
-
 
 63、抽奖与对象关系数据 disney_raffle_obj_rel
 没有updated_at视为不会发生更新操作
@@ -22,11 +19,8 @@ updated_at存在0的情况
 64、抽奖形式模版数据 disney_raffle_game_template
 updated_at存在0的情况
 
-
 65、抽奖形式数据 disney_raffle_game
 updated_at存在0的情况
-
-
 
 66、抽奖事件与抽奖人记录数据 disney_raffle_times_record
 没有updated_at视为不会发生更新操作
@@ -46,9 +40,8 @@ updated_at存在0的情况
 68、抽奖记录数据 disney_raffle_record
 没有updated_at视为不会发生更新操作
 
-
 69、抽奖操作日志数据 disney_raffle_log
-op_time
+表中不存在created_at，也不存在updated_at，使用op_time。
 
 70、抽奖用户范围数据 disney_raffle_userscope
 updated_at存在0的情况
