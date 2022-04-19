@@ -4,6 +4,9 @@
 ->写入本地存储（按照每条数据的更新/创建日期，追加写入到本地对应日期目录下的，以数据表名称命名的，以.csv后缀命名的文件中）
 
 
+60、抽奖事件数据 disney_raffle_event
+updated_at存在0
+
 63、抽奖与对象关系数据 disney_raffle_obj_rel
 没有updated_at视为不会发生更新操作
 
