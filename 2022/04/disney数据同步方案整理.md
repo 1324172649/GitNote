@@ -5,3 +5,5 @@
 
 67、抽奖人总的抽奖次数数据 disney_raffle_total_times_record
 表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将偏移量设置为主键ID
+
