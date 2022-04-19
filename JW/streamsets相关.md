@@ -209,6 +209,19 @@ function getYMDhms(time, only_ymd){
 }
 
 
+Y = date.getUTCFullYear() + '-';
+
+M = (date.getUTCMonth()+1 < 10 ? '0' + (date.getUTCMonth()+1) : date.getUTCMonth()+1) + '-';
+
+D = date.getUTCDate() < 10 ? '0' + date.getUTCDate() : date.getUTCDate();
+
+h = ' ' + (date.getUTCHours()) + ':';
+  
+m = date.getUTCMinutes() + ':';
+  
+s = date.getUTCSeconds();
+
+
 /tmp/out/${YYYY()}-${MM()}-${DD()}
 /tmp/out/${record:value('/date')}
 /tmp/out/${record.attributes('/date')}❌
