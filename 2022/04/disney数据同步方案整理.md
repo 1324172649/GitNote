@@ -4,6 +4,31 @@
 ->写入本地存储（按照每条数据的更新/创建日期，追加写入到本地对应日期目录下的，以数据表名称命名的，以.csv后缀命名的文件中）
 
 
+
+53、应用统计数据 disney_s_tenant_apps_data
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将查询数据库的SQL条件的偏移量设置为主键ID
+->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID
+->读取到数据即写入day字段对应的目录下
+
+54、客户端统计数据 disney_s_tenant_client_data
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将查询数据库的SQL条件的偏移量设置为主键ID
+->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID
+->读取到数据即写入day字段对应的目录下
+
+56、应用访问统计数据 disney_apps_action_all
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将查询数据库的SQL条件的偏移量设置为主键ID
+->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID
+->读取到数据即写入day字段对应的目录下
+
+57、应用数据统计数据 disney_apps_data_all
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将查询数据库的SQL条件的偏移量设置为主键ID
+->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID
+->读取到数据即写入day字段对应的目录下
+
 60、抽奖事件数据 disney_raffle_event
 updated_at存在0的情况
 
@@ -30,7 +55,6 @@ updated_at存在0的情况
 | end_at   | int  | 抽奖结束时间 |
 需要查询【抽奖事件数据 disney_raffle_event】
 
-
 67、抽奖人总的抽奖次数数据 disney_raffle_total_times_record
 表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
 首先将查询数据库的SQL条件的偏移量设置为主键ID
@@ -45,3 +69,11 @@ updated_at存在0的情况
 
 70、抽奖用户范围数据 disney_raffle_userscope
 updated_at存在0的情况
+
+
+
+
+
+
+
+
