@@ -176,49 +176,31 @@ for(var i = 0; i < records.length; i++) {
 }
 
 //处理时间戳转日期格式方法
-function getYMDhms(time, only_ymd){
-  
+function getYMDhms(time, only_ymd)
+{
   	if (time === 0) { return ''; }
-  
   	var timezone = 8; // 目标时区时间，东八区
-  
    	var offset_GMT = new Date().getTimezoneOffset(); // 本地时间和格林威治的时间差，单位为分钟
-  
-  	if (time === '') { 
-      
+    if (time === '') { 
         var nowDate = new Date().getTime(); // 本地时间距 1970 年 1 月 1 日午夜（GMT 时间）之间的毫秒数
-      
         var date = new Date(nowDate + offset_GMT * 60 * 1000 + timezone * 60 * 60 * 1000);
-      
     }else{
-      
       	var date = new Date(parseInt(time) * 1000 + offset_GMT * 60 * 1000 + timezone * 60 * 60 * 1000);
-      
     }
-  
 	Y = date.getFullYear() + '-';
-
 	M = (date.getMonth()+1 < 10 ? '0' + (date.getMonth()+1) : date.getMonth()+1) + '-';
-
 	D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
-  
   	if(only_ymd == 'yes')
     {
-      
       	return Y + M + D;
-      
     }else{
-      
       	h = ' ' + (date.getHours()) + ':';
-  
 		m = date.getMinutes() + ':';
-  
 		s = date.getSeconds();
-  
 		return Y + M + D + h + m + s;
-      	 
     }
 }
+
 
 var date = new Date()；
 
