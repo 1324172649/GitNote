@@ -2,7 +2,7 @@
 disney_port -> mysql端口号
 disney_pg_port -> PG端口号
 disney_begin_offset -> 起始偏移量日期时间戳
-origin_dbname_stat -> 统计库
+origin_dbname_stat -> 统计库名称
 
 
 
