@@ -73,6 +73,9 @@ updated_at和created_at都存在0的情况
 ->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID
 ->读取到数据即写入day字段对应的目录下
 
+
+
+
 60、抽奖事件数据 disney_raffle_event
 updated_at存在0的情况
 
