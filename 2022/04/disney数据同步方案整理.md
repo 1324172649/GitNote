@@ -24,6 +24,21 @@ updated_at存在0的情况
 42、表单子管理员组关系数据 disney_form_admingroup_share
 没有主键ID，也没有唯一标识，也没有创建时间和更新时间
 
+### mysql 给已存在的主键字段设置自增
+
+#### 第一步：给 id 增加auto_increment 属性
+```
+alter table tablename modify id int(11) auto_increment;
+
+```
+
+#### ### #### 第二步：给自增值设置初始值
+```
+alter table tablename auto_increment=10000;
+```
+
+
+
 44、表单数据(包含问卷、表单)  disney_form
 updated_at和created_at都存在0的情况
 
