@@ -59,11 +59,17 @@ updated_at存在0的情况
 
 47、表单模型数据 disney_appmaker_model
 updated_at和created_at都存在0的情况
+存在唯一标识ID，但不是自增的，无法作为排序条件
 
 48、表单模型字段数据 disney_appmaker_model_field
 表中不存在created_at，也不存在updated_at
 存在唯一标识ID，但不是自增的，无法作为排序条件
 
+52、应用访问统计数据 disney_s_tenant_apps_action
+表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
+首先将查询数据库的SQL条件的偏移量设置为主键ID
+->首次上线需要设置起始偏移量为数据库中该表最新一条数据的主键ID（全量和增量两个管道）
+->读取到数据即写入day字段对应的目录下
 
 53、应用统计数据 disney_s_tenant_apps_data
 表中不存在created_at，也不存在updated_at，如何判断新增和更新条件？
