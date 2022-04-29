@@ -37,6 +37,8 @@ staging是231
 ./redis1.sh  //redis库
 hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
 
+查看队列积压情况：
+ubuntu@ip-172-0-1-59:/var/www$ sudo -i rabbitmqctl list_queues | grep duty
 
 
 

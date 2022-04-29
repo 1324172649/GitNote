@@ -1,3 +1,7 @@
+
+查看队列积压情况：
+ubuntu@ip-172-0-1-59:/var/www$ sudo -i rabbitmqctl list_queues | grep duty
+
 root@joywok:/var/www# vim joywok/library/stomp-activemq/startmq.sh
 mkdir -p /var/www/joywok/logs/activemq/
 chmod  777  /var/www/joywok/logs/activemq/
