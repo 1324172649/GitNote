@@ -1,0 +1,12 @@
+【群组】
+'ser.login-param-error' 				=> '参数错误',
+'ser.group-name-non-empty'  			=> '名称不能为空',
+'ser.group-cover-non-empty' 			=> '封面图不能为空',
+'ser.group-non-exist'       			=> '对象不存在或已删除',
+'ser.group-team-non-add-mem'			=> '团队模式不能添加成员',
+'ser.sys-error-admin' 					=> '您没有管理权限',
+'ser.group-no-auth' 					=> '您没有权限',
+'ser.group-admin-empty'     			=> '由于没有其他管理员，您暂时无法退出',
+'ser.group-dynamic-mems-canot-close'    => '动态成员开启之后，暂不提供关闭服务',
+
+

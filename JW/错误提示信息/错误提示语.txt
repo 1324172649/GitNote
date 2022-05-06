@@ -1,0 +1,220 @@
+【Builder】
+'ser.login-param-error'                   => '参数错误',
+'ser.chart-not-exist'       => 'Chart 不存在或已被删除',
+'ser.chart-error-not-auth'  => '您暂无权限访问该 Chart',
+'ser.third_sys_error'       => '第三方系统错误，请重试',
+'ser.template-name-non-empty'   => '模板名称不能为空',
+'ser.temp-non-exist'            => '模板不存在或已被删除',
+'ser.default-temp-non-op'       => '通用模板无法删除或停用',
+'ser.temp-exist-draft'          => '该模板包含未保存的编辑项，请保存后发布',
+'ser.page-error-no-exist'       => '页面不存在或已被删除',
+'ser.page-error-en-name-existed'   => '该页面的英文名称已占用，请修改。',
+'ser.page-error-zh-name-existed'   => '该页面的中文名称已占用，请修改。',
+'ser.widget-not-exit'           => 'Widget 不存在或已被删除',
+'ser.third-link-not-exist'      => '未设置跳转地址',
+'ser.error-ai-tab-not-main'     => '该页面不可被设为 App 主屏',
+'ser.error-tab-min-limit'       => '需至少保留两个启用的页面',
+'ser.error-tab-only-tab-main'   => '只能设置一个页面为主屏',
+
+【活动】
+'ser.param-error'                   => '不合法参数',
+'ser.events-name-error'             => '活动主题不可为空',
+'ser.events-name-max-error'         => '不合法活动主题',
+'ser.events-time-error'             => '不合法活动时间',
+'ser.events-address-error'          => '活动地点不可为空',
+'ser.events-share-scope-error'      => '非公开活动分享范围不可为空',
+'ser.events-create-error'           => '创建活动失败',
+'ser.events-inexistence-error'      => '活动不存在',
+'ser.events-inexistence-error2'     => '您访问的对象不存在或已被删除',
+'ser.events-notice-error'           => '不合法活动通知',
+'ser.events-power-error'            => '没有权限',
+'ser.events-power-error2'           => '您暂未取得访问该对象的权限',
+'ser.events-started-error'          => '活动已开始，不允许操作',
+'ser.events-edit-error'             => '编辑活动失败',
+'ser.events-fail-error'             => '操作失败',
+'ser.events-wrongful-remind-error'  => '公开活动只可提醒待定人',
+'ser.events-noneed-remind-error'    => '无需提醒成员',
+'ser.events-ended-error'            => '活动报名已截止',
+'ser.events-repeat-error'           => '重复操作',
+'ser.part_not_exist'                => '个别信息不存在或已被删除，本次操作未处理这些信息',
+'ser.events-sign-error'             => '不合法签到',
+'ser.events-signed-error'           => '已签到',
+'ser.events-number-limit-error'     => '名额已满',
+'ser.events-num-max-error'          => '人数已达此活动设定的允许报名人数上限',
+'ser.events-change-scope-error'     => '公开活动不可变更为私有活动',
+'ser.events-delete-error'           => '不合法删除',
+'ser.events-canceled-error'         => '活动已取消',
+'ser.events-remind-error'           => '仅即将开始的活动可发此提醒',
+'ser.events-sign-address-error'     => '不合法签到地址',
+'ser.events-agenda-error'           => '活动议程不可为空',
+'ser.events-num-limit-error'        => '人数限制须多于目前已报名人数',
+'ser.events-cancel-error'           => '不可进行取消操作',
+'ser.events-not-started-error'      =>'活动未开始不能签到~',
+'ser.events-finished-error'         =>'活动已结束不能签到~',
+'ser.events-not-join-error'         =>'未报名活动不能签到~',
+'ser.events-cancel-sign'            =>'活动已取消不能签到~',
+'ser.events-share-type-error'       =>'只有私有活动可以邀请成员',
+'ser.events-not-allow-invite-error' =>'活动不允许邀请',
+'ser.events-exist-share-scope-error'=>'邀请的用户已存在活动分享范围',
+'ser.events-have-to-join-error'     =>'该活动必须参加',
+'ser.events-ext-apply-not-must'     => '仅代报名时不允许开启必须出席',
+'ser.events-form-apply-incorrect'   => '请设置代报名表单',
+'ser.events-not-apply'              => '未报名',
+'ser.events-aready-apply'           => '已报名',
+'ser.events-app-id-empty'           => '活动应用 Id 不能为空',
+'ser.events-add-survey-error'       => '添加活动问卷失败',
+'ser.events-add-shuttle-error'      => '添加活动交通信息失败',
+'ser.events-shuttle-not-exist'      => '该活动交通信息不存在',
+'ser.events-edit-shuttle-error'     => '编辑活动交通信息失败',
+'ser.events-delete-shuttle-error'   => '删除活动交通信息失败',
+'ser.events-sign-qr-expired'        => '签到失败，二维码已过期~',
+'ser.events-del-survey-error'       => '删除活动问卷失败',
+
+//20210428 活动三期
+'ser.events-scan-qrcode-sign'       => '请使用 {name} 扫码签到',
+'ser.events-scan-qrcode'            => '请使用 {name} 扫码',
+'ser.events-start-time-required'    => '请设置活动开始时间',
+'ser.events-end-time-required'      => '请设置活动结束时间',
+'ser.events-start-end-error'        => '活动开始时间须早于活动结束时间',
+'ser.events-apply-end-time-error'   => '活动报名结束时间须早于活动开始时间',
+'ser.events-apply-time-error'       => '活动报名开始时间须早于活动报名结束时间',
+'ser.events-start-time-error'       => '活动开始时间须晚于当前时间',
+'ser.events-error-delete'           => '活动组中还有未结束的活动，不能删除',
+'ser.events-end-sign-expired'       => '二维码已过期',
+'ser.events-apply-not-start'        => '未到活动报名时间',
+'ser.events-not-member-error'       => '您没有权限访问该活动',
+'ser.events-selected-max-error'     => '随机选择人数不能大于当前报名人数',
+'ser.events-selected-no-member'     => '当前所选用户已全部被审核',
+'ser.events-sign-qrcode-download-error'        => '动态签到二维码不支持下载',
+'ser.events-cancel-operation-error' => '审核失败，活动已取消；',
+'ser.events-ended-operation-error'  => '审核失败，活动已结束',
+'ser.events-group-num-max'          => '报名失败，当前系列活动您最多可报名 {num} 个活动，已达上限',
+
+【健康打卡】
+'ser.error-operation'              =>'操作失败',
+'ser.content-length-so-big'         => '内容超出长度限制',
+'ser.clock-in-noauth'=>'无权限查看，请联系管理员',
+'ser.clock-in-remind-limit'=>'频繁提醒，请稍后再试',
+'ser.clock-in-remind-noauth'=>'对不起，您无催办权限',
+'ser.clock-in-remind-failed'=>'催办操作失败',
+'ser.triotask-starttime-error'=>'开始时间必传',
+'ser.triotask-opsid-error' =>'筛选词条必传',
+'clockIn.dashboard.no.auth' => '您暂无查看权限',
+'clockIn.dashboard.label.search.empty' => '未找到相关内容',
+
+【群聊管理】
+'ser.error-userinfo-groupchat'           =>  '帐号状态异常，无法创建群聊',
+'ser.error-usernum-more-limit'           =>  '人数超过群聊成员数上限 500 人，无法创建群聊',
+'ser.error-create-chat-failed'           =>'服务器异常，创建群聊失败',
+'ser.chat-greater-than'                  => '群聊成员已满 500 人，您暂时无法加入',
+'ser.chat-not-create'                    => '成员数已超过 500 人，暂不支持 500 人以上群聊',
+'ser.add-group-succ-chat-error'          => '您已加入群组。但由于群聊成员已满 500 人，您暂时无法加入',
+'ser.error-chat-sys'                 => '系统错误，请重试',
+'ser.error-chat-create-fail'         => '群聊创建失败，请重试',
+'ser.error-chat-member-max'          => '超出群聊最大500人数限制',
+'ser.error-chat-member-min'          => '创建群聊至少需要3人',
+'ser.error-chat-name'                => '名称超出长度限制',
+'ser.error-chat-no-exist'            => '群聊不存在',
+'ser.error-chat-invite-members'      => '所有被邀请人已是群聊成员',
+'ser.error-chat-members-not'         => '用户已被移出群聊',
+'ser.error-chat-auth'                => '暂无操作权限',
+'ser.error-chat-manages-exist'       => '用户已是群聊管理员',
+'ser.error-chat-manages-not'         => '用户非群聊管理员',
+'ser.error-chat-manages-max'         => '超出管理员数量限制',
+'ser.error-chat-invite-reason'       => '邀请原因超出长度限制',
+'ser.error-chat-invite-id'           => '该邀请不存在',
+'ser.error-chat-member-exist'        => '所添加人已是群聊成员',
+'ser.error-chat-qrcode-expired'      => '群聊二维码已过期',
+'ser.error-chat-qrcode-auth'         => '已开启群聊邀请确认，暂不允许通过二维码或分享进入群聊',
+'ser.error-chat-invite-confirmed'    => '该群聊邀请已被处理',
+'ser.error-chat-obj-param'           => '群聊对象不存在',
+'ser.error-chat-operation'           => '操作失败，请重试',
+'ser.error-is-the-problem-solved'    => '请选择是否已解决',
+'ser.error-chat-invite-expired'      => '该群聊邀请已过期，请重新邀请',
+'ser.error-chat-flag-no'             => '该群组不允许发起群聊',
+'ser.error-chat-owner-leave'         => '普通群聊群主不能直接退出群聊',
+'ser.error-chat-group-private'       => '私密群组群聊无二维码或分享渠道',
+
+【水印管理】
+'ser.error-default-watermark-del'       => '默认水印不能删除',
+'ser.error-max-watermark-content'       => '水印最多可包含三项内容',
+
+【举报管理】
+'ser.error-must-input'              => '{key1} 为必填项',
+'ser.content-length-so-big'         => '内容超出长度限制',
+'ser.meeting-operate-fail' => '操作失败，请重试',
+
+
+【群组】
+'ser.login-param-error' 			=> '参数错误',
+'ser.group-name-non-empty'  			=> '名称不能为空',
+'ser.group-cover-non-empty' 			=> '封面图不能为空',
+'ser.group-non-exist'       			=> '对象不存在或已删除',
+'ser.group-team-non-add-mem'			=> '团队模式不能添加成员',
+'ser.sys-error-admin' 				=> '您没有管理权限',
+'ser.group-no-auth' 				=> '您没有权限',
+'ser.group-admin-empty'     			=> '由于没有其他管理员，您暂时无法退出',
+'ser.group-dynamic-mems-canot-close'    	=> '动态成员开启之后，暂不提供关闭服务',
+'ser.sys-error-no-dept' 			=> '该部门不存在',
+
+该群组不存在,
+您没有群组的管理权限,
+对不起你没有操作权限！,
+部门id不能为空！,
+用户id不能为空！,
+sorry!!! API not found!!!,
+
+【游戏机制&红包】
+'ser.default-controller-param-null' 	=> 参数不能为空:[PARAM]
+'ser.param-error' 						=> 不合法参数:[PARAM]
+'ser.score-surplus-not-enough' 			=> 您的 {key1} 不足！
+'ser.save-settings-error' 				=> 保存失败
+'ser.score-grade-name-exist' 			=> 等级名称已存在
+'ser.score-grade-value-exist' 			=> 等级的积分值已被设置
+'ser.score-grade-add-error' 			=> 添加积分等级失败
+'ser.score-grade-edit-error' 			=> 编辑积分等级失败
+'ser.score-grade-delete-error' 			=> 删除积分等级失败
+'ser.score-set-extra-error' 			=> 设置额外 {key1} 失败
+'ser.score-app-extra-already-set' 		=> 该对象已设置过额外 {key1}
+'ser.score-allotted-error' 				=> 发放失败
+'ser.score-policy-not-exist' 			=> 该策略不存在
+'ser.score-error-edit-policy' 			=> 编辑积分策略失败
+'ser.score-error-extension-more' 		=> 延用时间不能超过刷新时间
+'ser.score-error-give-max' 				=> {key1} 使用已达今日上限
+'ser.error-must-input'     				=> {key1} 为必填项
+'检测出无用户可发送，请确认发送范围'
+'导出时间间隔最多为3个月'
+'ser.sys-error-no-user'     			=> 用户不存在
+'ser.score-packet-receive-end' 			=> 很遗憾，红包已经被领完啦
+'ser.score-packet-send-max-score2' 		=> 每次最多允许发送 {key1} 个 {key2}
+'ser.score-send-packet-error' 			=> 发送失败，请重试
+'ser.score-repeat-receive-packet' 		=> 您已经领过了~
+'ser.score-receive-packet-error' 		=> 领取红包失败
+'ser.score-packet-not-exist' 			=> 这个包已不存在
+'ser.score-packet-num-less-score-num' 	=> {key1} 数量不能小于红包的数量
+'ser.score-give-score-max-today' 		=> 您赠送该用户的 {key1} 已达今日上限
+'ser.score-packet-expired-with-time' 	=> 由于您 {key1}未领取，{key2}已被退回。
+'ser.error-operation'               	=> 操作失败
+'ser.score-packet-expired'           	=> {key1}未被领取，{key2}已被退回。
+
+【法人发票】
+'ser.error-must-input'                  => {key1} 为必填项
+'ser.error-code-or-name-exist'          => 编码或名称重复
+'ser.save-settings-error'               => 保存失败
+'ser.error-corp-not-exist'              => 该法人实体不存在
+'ser.error-delete-failed'               => 删除失败
+'ser.error-invoice-not-exist'           => 该发票不存在
+'ser.error-company-taxpayer-exist'      => 公司名称或纳税人识别号已存在
+'ser.error-input-current'               => 请输入正确的 {key1}
+
+
+【门店签到】
+'ser.error-sign-already-sign'           => 您已经签到过了
+'ser.error-sign'                        => 签到失败
+'ser.error-sign-not-in-range-with-m'    => 需要在我们门店 {key1} 米范围内才可以签到，期待见到您。
+'ser.error-store-not-exist'             => 该门店不存在
+'ser.error-sign-self'                   => 您不能再自己的门店里签到哦
+'ser.error-sign-than-max-day'           => 每天最多可以签到 {key1} 家门店哦~
+'ser.error-sign-in-time'                => 距上次签到还不足 {key1} 哦，稍后再试吧
+
+
