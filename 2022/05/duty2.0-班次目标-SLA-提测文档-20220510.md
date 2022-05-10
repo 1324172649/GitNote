@@ -34,7 +34,7 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 是否涉及DB 层改动：是
 1、文件：joywok/library/DB/db_duty2.php
 方法：getTargetData、getTargetDataInfo
-影响点：增加查询
+影响点：增加查询排序条件
 
 返回报文是否太大、是否有冗余报文: 否
 发送到xmpp的报文是否太大: 否
