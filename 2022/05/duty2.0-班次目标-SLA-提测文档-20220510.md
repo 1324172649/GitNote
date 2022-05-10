@@ -8,7 +8,7 @@ https://dogesoft.joywok.com/as/info?id=AnJgRsTO9lu16bqH
 项目出处： @Starbucks PAPP  
 
 提测内容：
-1、duty2.0 班次目标
+1、duty2.0班次目标SLA；
 
 涉及脚本：无
 
