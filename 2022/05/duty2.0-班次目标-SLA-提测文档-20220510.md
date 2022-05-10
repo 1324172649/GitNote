@@ -13,7 +13,7 @@ https://dogesoft.joywok.com/as/info?id=AnJgRsTO9lu16bqH
 涉及脚本：
 1、根据门店ID清理对应网络下自2022-05-08零点到目前的班次目标脏数据
 cd /var/www/joywok/Sql/cmd
-php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店
+php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需找柳鑫提供）
 
 涉及配置：无
 
