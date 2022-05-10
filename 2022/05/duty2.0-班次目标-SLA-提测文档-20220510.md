@@ -21,8 +21,7 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 1、GET /api/duty/shifttargets 	【班次目标列表】
 2、GET /api/duty/shifttarget 	【班次目标详情】
 3、PUT /api/duty/targetdata 	【班次目标达成值修改】
-4、PUT /api/duty/shifttarget 	【班次目标达成值修改】
-shifttarget
+4、POST/PUT /api/duty/shifttarget 	【门店自定义班次目新增修改】
 
 是否涉及Controller层改动：否
 
