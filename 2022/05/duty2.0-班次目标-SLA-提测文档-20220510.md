@@ -18,11 +18,9 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 涉及配置：无
 
 涉及接口清单：
-1、GET /api2/users/userinfo	【用户主页】
-2、GET /api2/users/favoriteobjs	【通讯录首页】
-3、GET /api/myteams/teamusers	【组织架构】
-4、GET /api2/users/getreport	【直线汇报人】
-5、PUT /api/user/auth		【新增API - 用户认证设置（美妆秀B级认证）】
+1、GET /api/duty/shifttargets 	【班次目标列表】
+2、GET /api/duty/shifttarget 	【班次目标详情】
+3、PUT /api/duty/shifttarget 	【班次目标详情】
 
 是否涉及Controller层改动：否
 
