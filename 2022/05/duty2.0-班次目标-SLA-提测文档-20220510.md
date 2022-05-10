@@ -31,16 +31,8 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 方法：_handleUserCommonInfo
 影响点：增加auth返回值的数据结构处理
 
-2、文件：joywok/library/models/model_suggestion.php
-方法：_getUsers、combineUser
-影响点：批量获取用户信息的字段增加auth、增加auth返回值的数据结构处理
-
-3、文件：joywok/library/models/model_user.php
-方法：combineUser、getReport
-影响点：增加auth返回值的数据结构处理、增加auth返回值的数据结构处理
-
 是否涉及DB 层改动：是
-1、文件：joywok/library/DB/mongo/user/user.php
+1、文件：joywok/library/DB/db_duty2.php
 方法：_handleUserinfoToDB
 影响点：增加auth参数的数据结构处理
 
