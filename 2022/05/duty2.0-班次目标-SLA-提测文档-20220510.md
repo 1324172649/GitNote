@@ -4,7 +4,8 @@
 分支来源： master
 
 相关链接：
-https://dogesoft.joywok.com/as/info?id=RRSdGN0KTymPSTA2 
+https://dogesoft.joywok.com/as/info?id=AnJgRsTO9lu16bqH
+https://dogesoft.joywok.com/as/info?id=D3ZqAz6mxlkEGcJC
 项目出处：@Sephora Employee App 
 
 提测内容：
