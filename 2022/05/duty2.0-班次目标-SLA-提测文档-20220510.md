@@ -1,6 +1,6 @@
 @Git_分支管理  @朱晓娜(Hannah)  #提测申请# 
 
-分支： liuxin_master_beauty_show_20220505
+分支： liuxin_master_sla_duty_target_20220509
 分支来源： master
 
 相关链接：
