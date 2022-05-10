@@ -5,11 +5,10 @@
 
 相关链接：
 https://dogesoft.joywok.com/as/info?id=AnJgRsTO9lu16bqH
-https://dogesoft.joywok.com/as/info?id=D3ZqAz6mxlkEGcJC
-项目出处：@Sephora Employee App 
+项目出处： @Starbucks PAPP  
 
 提测内容：
-1、美妆秀审批;
+1、duty2.0 班次目标
 
 涉及脚本：无
 
