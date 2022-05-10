@@ -18,17 +18,14 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 涉及配置：无
 
 涉及接口清单：
-1、GET /api/duty/shifttargets 	【班次目标列表】
-2、GET /api/duty/shifttarget 	【班次目标详情】
-3、POST/api/duty/shifttarget 	【门店自定义班次目新增】
-4、PUT /api/duty/shifttarget 	【门店自定义班次目修改】
-5、PUT /api/duty/targetdata 	【班次目标达成值修改】
+1、GET /api/duty/shifttarget 	【班次目标详情】
+2、PUT /api/duty/targetdata 	【班次目标达成值修改】
 
 是否涉及Controller层改动：否
 
 是否涉及model层改动：是
 1、文件：joywok/library/models/duty/DutyTarget.php
-方法：getTarget、addCustomTarget
+方法：getTarget、addCustomTarget、editTargetData
 影响点：增加auth返回值的数据结构处理
 
 是否涉及DB 层改动：是
