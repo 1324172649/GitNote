@@ -26,7 +26,7 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 是否涉及model层改动：是
 1、文件：joywok/library/models/duty/DutyTarget.php
 方法：getTarget、addCustomTarget、editTargetData
-影响点：增加auth返回值的数据结构处理
+影响点：班次目标详情、修改班次目标
 
 是否涉及DB 层改动：是
 1、文件：joywok/library/DB/db_duty2.php
