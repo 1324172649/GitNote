@@ -34,6 +34,9 @@ control+R 搜索执行过的命令
 dogesoftuat是56
 staging是231 mq是56
 
+看config.ini里的配置：可查看MQ地址
+ActiveMQ="tcp://172.0.1.56:61613" 
+
 ./redis1.sh  //redis库
 hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
 
