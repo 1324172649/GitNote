@@ -5,7 +5,7 @@
 
 /var/www/joywok/logs
 
-/var/www/joywok/application/qwr/redis/config.
+/var/www/joywok/application/qwr/redis/config.php
 
 //查看access.log文件中某个关键字的相关log记录
 cat access.log | grep /api/...
