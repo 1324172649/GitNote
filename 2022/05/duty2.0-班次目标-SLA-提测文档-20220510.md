@@ -46,3 +46,16 @@ php del_duty_target_dirty_data_and_cache_20220510.php starbucks 门店ID（需�
 自测人： @柳鑫(Luna) 
 
 cc @杨康(Conn) 
+
+
+【提测内容补充】
+是否涉及model层改动：是
+2、joywok/library/models/memo/Memo.php
+方法：getSimpleUserByids
+影响点：获取用户简单信息
+
+自测内容：
+2、备忘录操作记录列表和备忘录添加分享范围消息通知接口调用✅
+
+影响点：
+2、备忘录；
