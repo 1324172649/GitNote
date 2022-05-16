@@ -32,7 +32,7 @@ control+R 搜索执行过的命令
 迪士尼是51,mq是71改为72
 丝芙兰是49 mq是48
 dogesoftuat是56
-staging是231
+staging是231 mq是56
 
 ./redis1.sh  //redis库
 hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
