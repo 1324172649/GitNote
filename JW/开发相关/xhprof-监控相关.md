@@ -23,7 +23,7 @@
              $xhprof_runs = new XHProfRuns_Default();
              // 将运行保存在名称空间“xhprof_foo”下
              // $run_id = $xhprof_runs->save_run($xhprof_data, "xhprof_foo");
-             $run_id = $xhprof_runs->save_run($xhprof_data, $this->_request->getParam('api').'-'.$this->_request->getParam('controller').'Controller-'.$this->_request->getParam('action').'Action');
+             $run_id = $xhprof_runs->save_run($xhprof_data, $this->_request->getParam('module').'-'.$this->_request->getParam('controller').'Controller-'.$this->_request->getParam('action').'Action');
 
         }
 	
