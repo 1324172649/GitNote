@@ -164,3 +164,4 @@ http://192.168.2.31/api/widget/d3776f3552ffc482cf2033ec85e54807
     "sub_wids": []
 }
 修改schema=》actions=》binding=》appId、parentId、app_id为要绑定的app_id，appType为要绑定的app_type(例如：jw_app_nativern)
+然后builder模版点击发布即可
