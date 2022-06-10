@@ -1,6 +1,7 @@
 首先关联一个类似的能关联得上的应用：
 然后抓取到编辑接口，和请求参数，如下：
 http://192.168.2.31/api/widget/d3776f3552ffc482cf2033ec85e54807
+```language
 {
     "id": "d3776f3552ffc482cf2033ec85e54807",
     "name": "未命名的组件1",
@@ -163,5 +164,8 @@ http://192.168.2.31/api/widget/d3776f3552ffc482cf2033ec85e54807
     "operation_flag": 0,
     "sub_wids": []
 }
+```
+
+
 修改schema=》actions=》binding=》appId、parentId、app_id为要绑定的app_id，appType为要绑定的app_type(例如：jw_app_nativern)
 然后builder模版点击发布即可
