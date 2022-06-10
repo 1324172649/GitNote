@@ -163,4 +163,4 @@ http://192.168.2.31/api/widget/d3776f3552ffc482cf2033ec85e54807
     "operation_flag": 0,
     "sub_wids": []
 }
-修改schema=》actions=》binding=》appId、parentId、app_id为要绑定的app_id，appType为要绑定的app——
+修改schema=》actions=》binding=》appId、parentId、app_id为要绑定的app_id，appType为要绑定的app_type(例如：jw_app_nativern)
