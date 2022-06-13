@@ -28,11 +28,11 @@ control+R 搜索执行过的命令
 可以临时在这上边修改文件，但是要尽快复原
 本地最终修改之后提交到分支上，在staging环境git pull拉一下代码
 
-星巴克是54和59两台轮流请求,59上有mq
-迪士尼是51,mq是71改为72
-丝芙兰是49 mq是48
+星巴克uat是54和59两台轮流请求,59上有mq
+迪士尼uat是51,mq是71改为72
+丝芙兰uat是49 mq是48
 dogesoftuat是56
-staging是231 mq是56
+staging是231,mq是56
 
 看config.ini里的配置：可查看MQ地址
 ActiveMQ="tcp://172.0.1.56:61613" 
