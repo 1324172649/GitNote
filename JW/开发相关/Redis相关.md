@@ -37,3 +37,10 @@ OK
 redis-cli shutdown
 因为Redis可以妥善处理SIGTERM信号，所以直接kill -9也是可以的
 kill -9 PID
+
+====================================
+## redis geo
+//获取指定定位的经纬度
+geopos dept_geo FQA5x8p86kwtPqW3 [member ...] 
+//获取距离某个经纬度指定范围内排序后的列表
+georadius dept_geo 100 10 99999999999999 km withcoord withdist asc count 5 [WITHCOORD] [WITHDIST] [WITHHASH] [COUNT count] [ASC|DESC] [STORE key] [STOREDIST key]
