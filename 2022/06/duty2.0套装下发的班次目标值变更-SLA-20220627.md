@@ -43,3 +43,15 @@ php del_duty_target_dirty_cache_20220627.php starbucks
 自测人： @柳鑫(Luna) 
 
 cc @杨康(Conn) 
+
+----------------------
+
+上线内容补充：
+是否涉及model层改动：是
+1、文件：joywok/library/models/duty/DutyTarget.php
+方法：editTargetValue、getTarget
+影响点：套装下发的班次目标值变更、获取班次目标信息
+
+2、文件：joywok/library/models/duty/ConsoleSuitPart.php
+方法：updateTarget、deleteTarget
+影响点：编辑和删除套装班次目标
