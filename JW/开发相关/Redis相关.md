@@ -52,7 +52,7 @@ get workplace.group.relation:997702067611283
 del workplace.group.relation:997702067611283
 
 
-SMEMBERS workplace.as:HNdgTCfya6fyE7ok
-srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786
-sAdd workplace.as:HNdgTCfya6fyE7ok
-del workplace.as:HNdgTCfya6fyE7ok
+SMEMBERS workplace.as:HNdgTCfya6fyE7ok //获取
+srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 删
+sAdd workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786
+del workplace.as:HNdgTCfya6fyE7ok 删除
