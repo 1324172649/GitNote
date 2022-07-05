@@ -51,7 +51,6 @@ set workplace.group.relation:997702067611283 Qnk7joykOvG514L1 //设置
 get workplace.group.relation:997702067611283 //获取
 del workplace.group.relation:997702067611283 //删除
 
-
 SMEMBERS workplace.as:HNdgTCfya6fyE7ok //获取
 srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //删某一个
 sAdd workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //添加一个
