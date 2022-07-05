@@ -54,5 +54,5 @@ del workplace.group.relation:997702067611283
 
 SMEMBERS workplace.as:HNdgTCfya6fyE7ok
 srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786
-
-workplace.as:HNdgTCfya6fyE7ok
+sAdd workplace.as:HNdgTCfya6fyE7ok
+del workplace.as:HNdgTCfya6fyE7ok
