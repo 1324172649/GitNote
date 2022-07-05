@@ -56,3 +56,6 @@ git clean  -f
 
 git clean -fd
 删除：未被跟踪的文件和文件夹
+
+从某次commit
+git checkout -b feature/master/f9f104e3/lx-workplacesync-20220705 f9f104e3
