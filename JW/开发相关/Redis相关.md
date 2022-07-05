@@ -56,3 +56,5 @@ SMEMBERS workplace.as:HNdgTCfya6fyE7ok //获取
 srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //删某一个
 sAdd workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //添加一个
 del workplace.as:HNdgTCfya6fyE7ok //删除
+
+keys workplace.user.relation:* //查看keys
