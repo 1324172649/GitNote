@@ -44,3 +44,10 @@ kill -9 PID
 geopos dept_geo FQA5x8p86kwtPqW3 [member ...] 
 //获取距离某个经纬度指定范围内排序后的列表
 georadius dept_geo 100 10 99999999999999 km withcoord withdist asc count 5 [WITHCOORD] [WITHDIST] [WITHHASH] [COUNT count] [ASC|DESC] [STORE key] [STOREDIST key]
+
+
+
+set workplace.group.relation:997702067611283 Qnk7joykOvG514L1
+get workplace.group.relation:997702067611283
+del workplace.group.relation:997702067611283
+
