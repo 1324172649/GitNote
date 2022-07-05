@@ -47,12 +47,12 @@ georadius dept_geo 100 10 99999999999999 km withcoord withdist asc count 5 [WITH
 
 
 
-set workplace.group.relation:997702067611283 Qnk7joykOvG514L1
-get workplace.group.relation:997702067611283
-del workplace.group.relation:997702067611283
+set workplace.group.relation:997702067611283 Qnk7joykOvG514L1 //设置
+get workplace.group.relation:997702067611283 //获取
+del workplace.group.relation:997702067611283 //删除
 
 
 SMEMBERS workplace.as:HNdgTCfya6fyE7ok //获取
-srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 删
-sAdd workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786
-del workplace.as:HNdgTCfya6fyE7ok 删除
+srem workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //删某一个
+sAdd workplace.as:HNdgTCfya6fyE7ok 365152309033748_369928595222786 //添加一个
+del workplace.as:HNdgTCfya6fyE7ok //删除
