@@ -15,8 +15,8 @@ $ git rebase --abort
 # 本地仓库没 push 到远程仓库的 commit 信息
 $ git rebase -i
 
-# 已经 push 到远程仓库的 commit 信息
-$ git rebase -i 
+# 已经 push 到远程仓库的 commit 信息(某次提交之后的)
+$ git rebase -i commitID
 
 -----------------------------------------
 
