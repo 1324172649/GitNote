@@ -20,7 +20,7 @@ $ git rebase -i commitID
 
 # 修改最近提交的 commit 信息
 $ git commit --amend --message="modify message by daodaotest" --author="jiangliheng <jiang_liheng@163.com>"
-git commit --amend
+$ git commit --amend 直接回车
 
 -----------------------------------------
 
