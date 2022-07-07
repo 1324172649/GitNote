@@ -1,7 +1,11 @@
 git commit 会车
+
+<type>(<scope>): <subject>
+
 kickoff链接：
 SLA链接：
 提测链接：
+
 
 
 
