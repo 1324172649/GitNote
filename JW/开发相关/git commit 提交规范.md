@@ -34,20 +34,17 @@ Footer 部分只用于两种情况。
 例如：
 BREAKING CHANGE: isolate scope bindings definition has changed.
 To migrate the code follow the example below:
-
     Before:
-
     scope: {
       myAttr: 'attribute',
     }
-
     After:
-
     scope: {
       myAttr: '@',
     }
-
     The removed `inject` wasn't generaly useful for directives so there should be no code using it.
+（2）关闭 Issue
+如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。
 
 
 
