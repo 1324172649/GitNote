@@ -15,6 +15,11 @@ SLA链接：
 <footer>
 
 type代表某次提交的类型，比如是修复一个bug还是增加一个新的feature。
+scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
+subject是 commit 目的的简短描述，不超过50个字符。
+以动词开头，使用第一人称现在时，比如change，而不是changed或changes
+第一个字母小写
+结尾不加句号（.）
 
 所有的 type 类型如下：
 feat： 新增 feature
