@@ -3,7 +3,7 @@ git 修改 commit 信息
 vi 模式下，找到需要修改的 commit 记录
 将```pick``` 修改为 ```edit``` 或 ```e```，```:wq``` 保存退出
 执行：git commit --amend  // 修改commit信息（可重复执行）
-
+执行：git rebase --continue //修改commit信息结束后，提交修改
 
 
 
