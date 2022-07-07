@@ -45,6 +45,9 @@ To migrate the code follow the example below:
     The removed `inject` wasn't generaly useful for directives so there should be no code using it.
 （2）关闭 Issue
 如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。
+例如：Closes #234
+也可以一次关闭多个 issue 。
+例如：Closes #123, #245, #992
 
 
 
