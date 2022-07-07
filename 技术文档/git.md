@@ -11,6 +11,13 @@ vi 模式下，找到需要修改的 commit 记录
 $ git rebase --skip
 $ git rebase --abort
 
+
+# 本地仓库没 push 到远程仓库的 commit 信息
+$ git rebase -i
+
+# 已经 push 到远程仓库的 commit 信息
+$ git rebase -i 
+
 -----------------------------------------
 
 
