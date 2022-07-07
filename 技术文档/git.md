@@ -11,6 +11,12 @@ vi 模式下，找到需要修改的 commit 记录
 $ git rebase --skip
 $ git rebase --abort
 
+# 从HEAD版本开始往过去数3个版本
+$ git rebase -i HEAD~3
+
+# 合并指定版本号（不包含此版本）
+$ git rebase -i [commitid]
+
 
 # 本地仓库没 push 到远程仓库的 commit 信息
 $ git rebase -i
