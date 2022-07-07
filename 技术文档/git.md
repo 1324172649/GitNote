@@ -18,6 +18,10 @@ $ git rebase -i
 # 已经 push 到远程仓库的 commit 信息(某次提交之后的)
 $ git rebase -i commitID
 
+# 修改最近提交的 commit 信息
+$ git commit --amend --message="modify message by daodaotest" --author="jiangliheng <jiang_liheng@163.com>"
+git commit --amend
+
 -----------------------------------------
 
 
