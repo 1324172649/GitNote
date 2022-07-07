@@ -1,3 +1,5 @@
+git xiu
+
 
 # Git commit日志基本规范
 <type>(<scope>): <subject>
