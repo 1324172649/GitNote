@@ -2,10 +2,12 @@ git commit 会车
 
 <type>(<scope>): <subject>
 
-kickoff链接：
-SLA链接：
-提测链接：
-内容描述
+kickoff链接：\n
+SLA链接：\n
+提测链接：\n
+内容描述1\n
+内容描述1\n
+
 
 <footer>
 
