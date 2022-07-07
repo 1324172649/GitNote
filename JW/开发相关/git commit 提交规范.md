@@ -31,6 +31,23 @@ Body 部分是对本次 commit 的详细描述
 Footer 部分只用于两种情况。
 （1）不兼容变动
 如果当前代码与上一个版本不兼容，则 Footer 部分以BREAKING CHANGE开头，后面是对变动的描述、以及变动理由和迁移方法。
+例如：
+BREAKING CHANGE: isolate scope bindings definition has changed.
+To migrate the code follow the example below:
+
+    Before:
+
+    scope: {
+      myAttr: 'attribute',
+    }
+
+    After:
+
+    scope: {
+      myAttr: '@',
+    }
+
+    The removed `inject` wasn't generaly useful for directives so there should be no code using it.
 
 
 
