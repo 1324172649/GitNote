@@ -1,8 +1,8 @@
 git 修改 commit 信息
-git rebase -i HEAD~3 // 查看最近三条提交信息
+执行：git rebase -i HEAD~3 // 查看最近三条提交信息
 vi 模式下，找到需要修改的 commit 记录
 将```pick``` 修改为 ```edit``` 或 ```e```，```:wq``` 保存退出
-git commit --amend
+执行：git commit --amend
 
 
 
