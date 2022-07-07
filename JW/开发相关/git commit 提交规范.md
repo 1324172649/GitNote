@@ -9,15 +9,14 @@ SLA链接：
 
 # Git commit日志基本规范
 <type>(<scope>): <subject>
-<BLANK LINE>
+// 空一行
 <body>
-<BLANK LINE>
+// 空一行
 <footer>
-
-所有的 type 类型如下：
 
 type代表某次提交的类型，比如是修复一个bug还是增加一个新的feature。
 
+所有的 type 类型如下：
 feat： 新增 feature
 fix: 修复 bug
 docs: 仅仅修改了文档，比如 README, CHANGELOG, CONTRIBUTE等等
