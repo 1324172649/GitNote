@@ -1,4 +1,6 @@
-git xiu
+git 修改 commit 信息
+git rebase -i HEAD~3 // 查看最近三条提交信息
+
 
 
 # Git commit日志基本规范
