@@ -1,11 +1,11 @@
-git 修改 commit 信息
+# git 修改 commit 信息
 执行：git rebase -i HEAD~3 // 查看最近三条提交信息
 vi 模式下，找到需要修改的 commit 记录
 将```pick``` 修改为 ```edit``` 或 ```e```，```:wq``` 保存退出
 执行：git commit --amend  // 修改commit信息（可重复执行）
 执行：git rebase --continue //修改commit信息结束后，提交修改
 
-此时查看log就是修改后的信息：git log/git log --oneline #
+此时查看log就是修改后的信息：git log/git log --oneline 
 
 # 中间也可跳过或退出 rebase 模式
 $ git rebase --skip
