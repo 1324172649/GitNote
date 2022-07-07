@@ -5,7 +5,7 @@ vi 模式下，找到需要修改的 commit 记录
 执行：git commit --amend  // 修改commit信息（可重复执行）
 执行：git rebase --continue //修改commit信息结束后，提交修改
 
-此时查看log就是修改后的信息：git log/git log --oneline 
+此时查看log就是修改后的信息：git log/git log --oneline #
 
 # 中间也可跳过或退出 rebase 模式
 $ git rebase --skip
