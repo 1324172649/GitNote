@@ -59,8 +59,8 @@ del workplace.as:HNdgTCfya6fyE7ok //删除
 keys workplace.user.relation:* //查看keys
 
 
-set workplace.group.relation:997702067611283 "Navalinl中Everyone群组ID"
+set workplace.group.relation:997702067611283 "Navalink中Everyone群组ID"
 
-set workplace.group.relation:365152309033748 "Navalinl中R&D群组ID"
+set workplace.group.relation:365152309033748 "Navalink中R&D群组ID"
 
 set workplace.user.relation:100074401674407 "Navalinl中关联Marlin Doo的用户ID"
