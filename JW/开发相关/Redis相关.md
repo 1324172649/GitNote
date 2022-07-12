@@ -1,6 +1,7 @@
 连接29
 ssh root@192.168.2.29 -p22
 redis-cli
+info // 查看redis版本等信息
 127.0.0.1:6379> smembers uid.sids:0ec597c200db8030b955343b41bbef6f（uid=>userinfo表）
 
 hgetall user:b965192f2cbcb71d875a4a2ef9e30d29
