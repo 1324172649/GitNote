@@ -9,6 +9,8 @@ db.starbucks_userinfo.find({"id": "4fd34eaecc7b5232afa14e745f869766"})
 
 ca7360d706299b9a9a6ab3aa00bee418
 
+获取到生日周年庆的周期通知内容
+
 
 
 【生日缓存】

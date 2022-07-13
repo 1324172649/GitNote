@@ -1,3 +1,9 @@
+查看git分支提交图谱
+git log --oneline --graph --decorate --all //全部分支
+git log --oneline --graph --decorate //当前分支
+
+-----------------------------------------------------
+
 # git 修改 commit 信息
 执行：git rebase -i HEAD~3 // 查看最近三条提交信息
 vi 模式下，找到需要修改的 commit 记录
@@ -166,6 +172,8 @@ git reset --hard [commit-hashcode]
 1
 2
 因此一般用法是先用 git log 查看具体commit的哈希值，然后 reset 到那个版本。
+
+3.git push -f 将会退后的分支强推到远程分支上
 
 git clean 删除未被跟踪文件及文件夹
 git clean  -f
